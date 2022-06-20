@@ -250,9 +250,12 @@
       "Eine Veranstaltung wurde bisher gar nicht, einmal oder bereits mehrmals protokolliert.",
       "Eine Location wurde bisher gar nicht, einmal oder bereits mehrmals protokolliert.",
       "Ein protokollierter Teilnehmer hat mindestens an einer Veranstaltung teilgenommen.",
-      "Ein protokollierter Sponsor hat sich an mindestens einer Veranstaltung beteiligt." //stattgefunden HAT -> Veranstaltung muss mind einmal stattgefunden haben. selbe mit Location 
+      "Ein protokollierter Sponsor hat sich an mindestens einer Veranstaltung beteiligt."
     ]
   },
+
+  //stattgefunden HAT -> Veranstaltung muss mind einmal stattgefunden haben. selbe mit Location 
+
   {
     "text": "In einem Sprachenzentrum soll gespeichert werden, welche der zu unterrichtenden Sprachen von welchen Dozenten gesprochen werden. Jeder Dozent beherrscht mindestens eine der Sprachen, zeitweise kann es aber passieren, dass es zu einer Sprachen keinen Dozenten gibt.",
     "entities": ["Sprache", "Dozent"],
@@ -270,9 +273,12 @@
     "solution": ["cn", "n"], //["1", "n"]
     "comments": [
       "Ein Bürger hat keinen, einen oder mehrere Wohnsitze.",
-      "Zu einem gemeldeten Wohnsitz gibt es mindestens einen Bürger, der dort wohnhaft ist." //nur ein Bürger hat den Wohnsitz angemeldet -> nicht wohnen sondern anmelden
+      "Zu einem gemeldeten Wohnsitz gibt es mindestens einen Bürger, der dort wohnhaft ist."
     ]
   },
+
+  //nur ein Bürger hat den Wohnsitz angemeldet -> nicht wohnen sondern anmelden
+
   {
     "text": "Ein Team von Programmierern möchte den Quelltext ihrer Programme versionieren, so dass bei jedem Speichern von Änderungen automatisch eine neue Version vom Quelltext separat gespeichert wird.",
     "entities": ["Programmierer", "Quelltext", "Version"],
@@ -382,9 +388,12 @@
     "solution": ["cn", "cn"], //["n", "n"]
     "comments": [
       "Eine Haltestelle ist mit keiner, einer oder mehreren anderen Haltestelle verbunden.",
-      "Eine Haltestelle ist mit keiner, einer oder mehreren anderen Haltestelle verbunden." //Haltestelle muss eine Verbindung haben sonst ist es keine Haltestelle -> kann nicht angefahren werden
+      "Eine Haltestelle ist mit keiner, einer oder mehreren anderen Haltestelle verbunden."
     ]
   },
+
+  //Haltestelle muss eine Verbindung haben sonst ist es keine Haltestelle -> kann nicht angefahren werden
+
   {
     "text": "Ein Kind hat eine (biologische) Mutter und einen (biologischen) Vater.",
     "entities": ["Vater", "Mutter", "Kind"],
@@ -429,9 +438,12 @@
     "solution": ["p", "n"],
     "comments": [
       "An der Hundeshow nehmen auch andere Hunderassen teil.",
-      "Neben den reinrassigen Hunden nehmen auch Mischlinge teil (z.B. ein Mops-Dackel-Mix)." //Mixe müssten extra aufgeführt werden und gehören keiner Klasse an -> ein Hund ist nicht ein Dackel und ein Mops, sondern ein Mops-Dackel-Mix
+      "Neben den reinrassigen Hunden nehmen auch Mischlinge teil (z.B. ein Mops-Dackel-Mix)."
     ]
   },
+
+  //Mixe müssten extra aufgeführt werden und gehören keiner Klasse an -> ein Hund ist nicht ein Dackel und ein Mops, sondern ein Mops-Dackel-Mix
+
   {
     "text": "Eine Adoptionsvermittlungsstelle möchte die Kontaktdaten der (biologischen) Eltern verwalten. Dabei sollen auch Vater- und Mutter-spezifische Merkmale erfasst und deshalb explizit zwischen beiden unterschieden werden.",
     "entities": ["Elternteil", "Mutter", "Vater"],
@@ -451,14 +463,18 @@
     ]
   },
   {
-    "text": "An einer Hochschule soll zwischen zwei Personengruppen unterschieden werden. Es gibt Studenten und alle anderen zählen als Mitarbeiter.", //Es gibt nur studenten und mitarbeiter
+    "text": "An einer Hochschule soll zwischen zwei Personengruppen unterschieden werden. Es gibt Studenten und alle anderen zählen als Mitarbeiter.",
     "entities": ["Hochschulangehöriger", "Student", "Mitarbeiter"],
     "solution": ["t", "n"],
     "comments": [
       "Neben Studenten und Mitarbeitern gibt es keine anderen Personengruppen an der Hochschule.",
-      "Ein Student kann gleichzeitig auch ein Mitarbeiter (studentische Hilfskraft) und ein Mitarbeiter auch Student sein." //Formulierung "alle anderen" impliziert, alle die nicht student sind
+      "Ein Student kann gleichzeitig auch ein Mitarbeiter (studentische Hilfskraft) und ein Mitarbeiter auch Student sein."
     ]
   },
+
+  //Formulierung "alle anderen" impliziert, alle die nicht student sind
+  //Vorschlag "Es gibt nur studenten und mitarbeiter"
+
   {
     "text": "Für ein Krankenhaus sollen die verschiedenen Personengruppen verwaltet werden. Unterschieden wird dabei zwischen Besuchern, Patienten und Personal.",
     "entities": ["Person", "Besucher", "Patient", "Personal"],
