@@ -255,6 +255,7 @@
   },
 
   //stattgefunden HAT -> Veranstaltung muss mind einmal stattgefunden haben. selbe mit Location 
+  //Vielleicht einfach stattfindet anstelle von "stattgefunden hat"
 
   {
     "text": "In einem Sprachenzentrum soll gespeichert werden, welche der zu unterrichtenden Sprachen von welchen Dozenten gesprochen werden. Jeder Dozent beherrscht mindestens eine der Sprachen, zeitweise kann es aber passieren, dass es zu einer Sprachen keinen Dozenten gibt.",
@@ -276,9 +277,6 @@
       "Zu einem gemeldeten Wohnsitz gibt es mindestens einen Bürger, der dort wohnhaft ist."
     ]
   },
-
-  //nur ein Bürger hat den Wohnsitz angemeldet -> nicht wohnen sondern anmelden
-
   {
     "text": "Ein Team von Programmierern möchte den Quelltext ihrer Programme versionieren, so dass bei jedem Speichern von Änderungen automatisch eine neue Version vom Quelltext separat gespeichert wird.",
     "entities": ["Programmierer", "Quelltext", "Version"],
